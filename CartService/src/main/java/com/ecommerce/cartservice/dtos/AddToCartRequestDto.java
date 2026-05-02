@@ -1,0 +1,17 @@
+package com.ecommerce.cartservice.dtos;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class AddToCartRequestDto {
+
+    private Long productId;
+    private String productName;
+    private Double price;
+    private int quantity;
+    private String imageUrl;
+}

@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "env": {
+    "VITE_PRODUCT_API_URL": "https://your-product-service.railway.app",
+    "VITE_USER_API_URL": "https://your-user-service.railway.app"
+  }
+}
